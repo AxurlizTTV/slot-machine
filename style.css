@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right top, #FF5757, #FFBBBB);
+}
+
+.btncontainer {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+
+.dashboard {
+  display: flex;
+  background-color: #5A5A5A;
+  width: 60%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.slot1, 
+.slot2, 
+.slot3 {
+  margin-top: 10%;
+  width: 300px;
+  height: 500px;
+}
+
+.slot1 {
+  background: #7d7d7d;
+  border: solid 10px #2b2b2b;
+
+}
+
+.slot2 {
+  background: #7d7d7d;
+  border: solid 10px #2b2b2b;
+}
+
+.slot3 {
+  background: #7d7d7d;
+  border: solid 10px #2b2b2b;
+}
+
+.slotface {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 80%;
+  height: 45%;
+  margin: 10%;
+}
+
+.textresult {
+  background-color: #5A5A5A;
+  width: 80%;
+  height: 35%;
+  margin: 10%;
+}
+
+.gameresult {
+  background: #7d7d7d;
+  width: 940px;
+  height: 70px;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  border-radius: 15% 15% 15% 15%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.gametext {
+  background: white;
+  width: 80%;
+  height: 70%;
+  margin-top: 10px;
+}
+
+.slotimg {
+  size: auto;
+}
+
+.shake {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.gametext {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
